@@ -5,10 +5,9 @@
 @preprocessor	default
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://studium.unict.it")
+@-moz-document domain("studium.unict.it")
 {
 	#content, #menu, body, #global_course_name, #header3, .headerinner, #current, #header2, .headerinner, #header2redborder, .actions, td, #announcements_list, .quiz_content_actions {
-		/*background: #2E3440!important;*/
 		background-color: #2E3440 !important;
 		border: none;
 	}
