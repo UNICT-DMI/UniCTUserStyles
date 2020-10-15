@@ -1,0 +1,55 @@
+/* ==UserStyle==
+@name			Studium
+@author			Domenico Blanco
+@version		1.0
+@namespace		cascadea3326334308
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document url-prefix("https://studium.unict.it")
+{
+	#content, #menu, body, #global_course_name, #header3, .headerinner, #current, #header2, .headerinner, #header2redborder, .actions, td, #announcements_list, .quiz_content_actions {
+		/*background: #2E3440!important;*/
+		background-color: #2E3440 !important;
+		border: none;
+	}
+	
+	#header2, .actions {
+		background: #2E3440 !important;
+	}
+	
+	.section_white, .sectiontitle, .section {
+		background-color: #2E3440 !important;
+		background: #2E3440 !important;
+	}
+	
+	a, span {
+		color: #1084a7 !important;
+	
+	}
+	
+	a[target] {
+		background: none !important;
+	}
+	
+	a:hover {
+		background: none;
+	}
+	
+	.home_cats ul li a:hover {
+		background-color: none !important;
+		background: none;
+	}
+	
+	.independent_course_item {
+		color: #1A919D;
+	}
+	
+	.course_list_category {
+		background-color: #2E3B55;
+	}
+	
+	td, div {
+		color: #1084a7 !important;
+	}
+}
