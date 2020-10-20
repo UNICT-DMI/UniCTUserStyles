@@ -1,27 +1,27 @@
 /* ==UserStyle==
 @name           SmartEdu
 @namespace      github.com/domenicoblanco/UniCTUserstyle
-@version        1.0.0
+@version        1.0.1
 @description    Userstyle for SmartEdu
 @author         Domenico Blanco
 ==/UserStyle== */
 
 @-moz-document domain("studenti.smartedu.unict.it")
 {
-	body, #ctl01_MasterMenu_main-breadcrumb, td, #mainTab, div {
+	body, #ctl01_MasterMenu_main-breadcrumb, td, #mainTab, div, .select2-container--default .select2-selection--single .select2-selection__rendered, .content-wrapper {
 	    background-color: #2E3440;
 	    background: #2E3440;
 	}
 	
-	.big, a:link, #ctl01_MasterMenu_main-breadcrumb, ul a, h1, p, h2, span {
+	.big, a:link, #ctl01_MasterMenu_main-breadcrumb, ul a, h1, p, h2, span, th, .select2-container--default .select2-selection--single .select2-selection__rendered {
 	    color: #1084a7;
 	}
 	
-	#ctl01_MasterMenu_main-breadcrumb a:link, .dropdown-header, td img, h3 span, ul li a, a:visited, a, td, h3 {
+	#ctl01_MasterMenu_main-breadcrumb a:link, .dropdown-header, td img, h3 span, ul li a, a:visited, a, td, h3, input[type="search"] {
 	    color: #1084a7!important;
 	}
 	
-	#ctl01_MasterMenu_MasterMenu_Main-Menu, #ctl01_MasterMenu_MasterMenu_Main-Menu a, td div, .dropdown-header, ul, #ctl01_contents_pagoPAMainPanel div, td, #ctl01_contents_CarriereList_ctl01 {
+	#ctl01_MasterMenu_MasterMenu_Main-Menu, #ctl01_MasterMenu_MasterMenu_Main-Menu a, td div, .dropdown-header, ul, #ctl01_contents_pagoPAMainPanel div, td, #ctl01_contents_CarriereList_ctl01, .navbar-light, main nav ol {
 	    background: #2E3440!important;
 	}
 	
@@ -39,7 +39,7 @@
 	    border: none!important;
 	}
 	
-	input[type="submit"], hr, .ui-tabs-anchor  {
+	input[type="submit"], hr, .ui-tabs-anchor, input[type="search"], .select2-container--default .select2-selection--single  {
 	    background: #2E3440!important;
 	    border-color: #1084a7!important;
 	}
@@ -51,4 +51,8 @@
 	.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
 	    border: 2px solid grey!important;
 	}
+    
+    #titleInfoPage {
+        color: white!important;
+    }
 }
