@@ -1,12 +1,12 @@
 /* ==UserStyle==
-@name           SmartEdu
+@name           Studium
 @namespace      github.com/domenicoblanco/UniCTUserstyle
 @version        1.0.0
 @description    Userstyle for Studium
 @author         Domenico Blanco
 ==/UserStyle== */
 
-@-moz-document domain("studium.unict.it") {
+@-moz-document domain("studium.unict.it"), domain("studiumarchive.unict.it") {
     #content,
     #menu,
     body,
