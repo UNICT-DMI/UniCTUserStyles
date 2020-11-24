@@ -23,4 +23,4 @@ To check if there's a new version you have to open your browser and select `Styl
 In the Manage Page just click `Check all styles for upates` and wait for the magic ✨
 
 ### Cascadea
-Just open the app and it will updates each style automatically
+Just open the app and it will update each style automatically
