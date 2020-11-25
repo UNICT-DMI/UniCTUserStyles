@@ -12,8 +12,8 @@ Just download one of these extensions according to your browser
 - [Safari - Cascadea](https://apps.apple.com/app/cascadea/id1432182561)
  
 And now click in the UserStyle you'd like to install
-- [Studium](https://raw.githubusercontent.com/domenicoblanco/UniCTUserstyle/master/Studium.user.css)
-- [SmartEdu](https://raw.githubusercontent.com/domenicoblanco/UniCTUserstyle/master/SmartEdu.user.css)
+- [Studium](https://raw.githubusercontent.com/domenicoblanco/UniCTUserStyles/master/Studium.user.css)
+- [SmartEdu](https://raw.githubusercontent.com/domenicoblanco/UniCTUserStyles/master/SmartEdu.user.css)
 
 Automatically the extension you installed before should recognize the UserStyle and automatically prompt to import it.
 
