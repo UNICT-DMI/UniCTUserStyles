@@ -1,5 +1,5 @@
 # 🌙 UniCT UserStyles
-Nothing too much to expect, these are just two simple dark styles for [Studium](https://studium.unict.it) (and it's archive) and [Smart_Edu](https://studenti.smartedu.unict.it/WorkFlow2011/Logon/Logon.aspx).
+Nothing too much to expect, these are just two simple dark styles for [Studium](https://studium.unict.it) (and its archive) and [Smart_Edu](https://studenti.smartedu.unict.it/WorkFlow2011/Logon/Logon.aspx).
 
 ## 📁 Files
 As said before, there are two indipendente style, you could install both or only the one you need.
