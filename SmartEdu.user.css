@@ -6,8 +6,7 @@
 @author         Domenico Blanco
 ==/UserStyle== */
 
-@-moz-document domain("studenti.smartedu.unict.it")
-{
+@-moz-document domain("studenti.smartedu.unict.it"){
 	body, #ctl01_MasterMenu_main-breadcrumb, td, #mainTab, div, .select2-container--default .select2-selection--single .select2-selection__rendered, .content-wrapper {
 	    background-color: #2E3440;
 	    background: #2E3440;
