@@ -1,57 +1,130 @@
 /* ==UserStyle==
 @name           SmartEdu
 @namespace      github.com/domenicoblanco/UniCTUserStyles
-@version        1.0.1
+@version        1.0.2
 @description    Userstyle for SmartEdu
 @author         Domenico Blanco
 ==/UserStyle== */
 
 @-moz-document domain("studenti.smartedu.unict.it"){
-	body, #ctl01_MasterMenu_main-breadcrumb, td, #mainTab, div, .select2-container--default .select2-selection--single .select2-selection__rendered, .content-wrapper {
-	    background-color: #2E3440;
-	    background: #2E3440;
+	:root {
+		--primary-color: #18191a;
+		--secondary-color: #242526;
+		--third-color: #3a3b3c;
+		--text: teal;
 	}
 	
-	.big, a:link, #ctl01_MasterMenu_main-breadcrumb, ul a, h1, p, h2, span, th, .select2-container--default .select2-selection--single .select2-selection__rendered {
-	    color: #1084a7;
+	.features-table > table.gradienttable > tbody > tr:nth-child(even) > td {
+		background-color: var(--primary-color)!important;
+	}
+	
+	.azzurro1 > ul > li, .verde1 > ul > li, .arancio1 > ul > li, #ctl01_contents_CarriereList_ctl01, .baseCssEditingTable tr:first-child .section, .gradienttable th, #ctl01_contents_PianiStudioH1_LblID6b01187a_086f_4954_909c_74baf83252fd {
+		border-color: var(--text)!important;
+	}
+	
+	.baseCssEditingTable td {
+		-webkit-box-shadow: 0 1px 0 teal!important;
+	}
+	
+	/* Backgrounds */
+	
+	body, #ctl01_MasterMenu_main-breadcrumb, input.TextField {
+		background: var(--primary-color);
+	}
+	
+	div > .campi, .footer, #ctl01_contents_PanelOpzioniLogon, #ctl01_contents_PanelSpidLogon, #ctl01_contents_PanelLogonDataInput {
+		background: var(--secondary-color);
+	}
+	
+	.gradienttable th {
+		background: var(--primary-color);
+		color: var(--text);
+	}
+	
+	/* Login button */
+	
+	#LogonButton {
+	  border-width: 0;
+	  outline: none;
+	  border-radius: 2px;
+	  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+	  
+	  background-color: var(--primary-color);
+	  color: var(--text);
+	  
+	  transition: background-color .3s;
+	}
+	
+	#LogonButton:hover, #LogonButton:focus {
+	  background-color: var(--third-color);
+	}
+	
+	#ctl01_contents_PanelSpidLogon > a > span.italia-it-button-text {
+		color: white;
+	}
+	
+	/* Font color */
+	
+	div > .big, .footer, .footer > a:link, input.TextField {
+		color: var(--text);
+	}
+	
+	body, #ctl01_MasterMenu_main-breadcrumb, td, #mainTab, div, .select2-container--default .select2-selection--single .select2-selection__rendered, .content-wrapper {
+		background-color: var(--primary-color);
+		background: var(--primary-color);
+	}
+	
+	.big, a:link, #ctl01_MasterMenu_main-breadcrumb, ul a, h1, p, h2, span, th, .select2-container--default .select2-selection--single .select2-selection__rendered, #ctl01_contents_CarriereList_CarrieraPanel_376384ff-e7f7-4820-8c90-5b1d908db0bb > div {
+		color: var(--text);
 	}
 	
 	#ctl01_MasterMenu_main-breadcrumb a:link, .dropdown-header, td img, h3 span, ul li a, a:visited, a, td, h3, input[type="search"] {
-	    color: #1084a7!important;
+		color: var(--text)!important;
 	}
 	
 	#ctl01_MasterMenu_MasterMenu_Main-Menu, #ctl01_MasterMenu_MasterMenu_Main-Menu a, td div, .dropdown-header, ul, #ctl01_contents_pagoPAMainPanel div, td, #ctl01_contents_CarriereList_ctl01, .navbar-light, main nav ol {
-	    background: #2E3440!important;
+		background: var(--secondary-color)!important;
 	}
 	
 	td {
-	    border-bottom: none!important;
-	    border-top-right-radius:0!important;
-	    border-top-left-radius: 0!important;
+		border-bottom: none!important;
+		border-top-right-radius:0!important;
+		border-top-left-radius: 0!important;
 	}
 	
-	td img {
-	    background: none!important;
+	td img, table.menustudenti > tr > td > img {
+		background: none!important;
 	}
 	
 	td h3 span, ul, .menustudenti, #mainTab, #ctl01_contents_pagoPAMainPanel div, td {
-	    border: none!important;
+		border: none!important;
 	}
 	
 	input[type="submit"], hr, .ui-tabs-anchor, input[type="search"], .select2-container--default .select2-selection--single  {
-	    background: #2E3440!important;
-	    border-color: #1084a7!important;
+		background: var(--primary-color)!important;
+		border-color: #1084a7!important;
 	}
 	
 	.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
-	    border: 2px solid #00796B!important;
+		border: 2px solid #00796B!important;
 	}
 	
 	.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
-	    border: 2px solid grey!important;
+		border: 2px solid grey!important;
 	}
-    
-    #titleInfoPage {
-        color: white!important;
-    }
+		
+	#titleInfoPage {
+		color: white!important;
+	}
+	
+	/* Logo */
+	#ctl01_ImageEng {
+		filter: grayscale() invert();
+	}
+	
+	/* Cookie bar */
+	#cookie-bar > p > a {
+		color: gray!important;
+	}
+	   
 }
