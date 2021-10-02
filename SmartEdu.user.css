@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           SmartEdu
 @namespace      github.com/domenicoblanco/UniCTUserStyles
-@version        1.0.2
+@version        1.0.3
 @description    Userstyle for SmartEdu
 @author         Domenico Blanco
 ==/UserStyle== */
@@ -45,12 +45,15 @@
 	
 	#LogonButton {
 	  border-width: 0;
-	  outline: none;
+	  cursor: pointer;
 	  border-radius: 2px;
 	  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 	  
-	  background-color: var(--primary-color);
 	  color: var(--text);
+	  width: 80px;
+	  height: 25px;
+	  display: block;
+	  margin: 5px auto auto;
 	  
 	  transition: background-color .3s;
 	}
@@ -126,5 +129,11 @@
 	#cookie-bar > p > a {
 		color: gray!important;
 	}
-	   
+	
+	/* Dropdown header */
+	
+	.dropdown-header {
+		border-top-color: #1084a7!important;
+		border-bottom-color: #1084a7!important;
+	}
 }
