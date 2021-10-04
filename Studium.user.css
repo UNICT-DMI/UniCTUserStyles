@@ -1,70 +1,59 @@
 /* ==UserStyle==
 @name           Studium
 @namespace      github.com/domenicoblanco/UniCTUserStyles
-@version        1.0.1
+@version        1.0.2
 @description    Userstyle for Studium
 @author         Domenico Blanco
 ==/UserStyle== */
 
 @-moz-document domain("studium.unict.it"), domain("studiumarchive.unict.it") {
-    #content,
-    #menu,
-    body,
-    #global_course_name,
-    #header3,
-    .headerinner,
-    #current,
-    #header2,
-    .headerinner,
-    #header2redborder,
-    .actions,
-    td,
-    #announcements_list,
-    .quiz_content_actions {
-        background-color: #2E3440 !important;
+    :root {
+        color-scheme: dark;
+        --primary-color: #18191a;
+        --secondary-color: #242526;
+        --third-color: #3a3b3c;
+        --text: teal;
+        --secondary-text: #1084a7;
+    }
+    
+    #content, #menu, body, #global_course_name, #header3, .headerinner, #current, .headerinner, #header2, #header2redborder, .actions, td, #announcements_list, .quiz_content_actions, .headerinner, .section_white, .sectiontitle, .section, .course_list_category {
+        background-color: var(--primary-color)!important;
         border: none;
+        background: var(--primary-color);
     }
-
-    #header2,
-    .actions {
-        background: #2E3440 !important;
+    
+    .actions, .menu-general, #unictauth, #annoaccademico, #logout  a, #menu > a, .data_table th, #mobileapps {
+        background: var(--secondary-color)!important;
+        border-radius: 2px;
     }
-
-    .section_white,
-    .sectiontitle,
-    .section {
-        background-color: #2E3440 !important;
-        background: #2E3440 !important;
+    
+    #mobileapps {
+        padding-bottom: 10px;
     }
-
-    a,
-    span {
-        color: #1084a7 !important;
+    
+    a, span, td, div, h3, button.login, .independent_course_item {
+        color: var(--text) !important;
     }
-
-    a[target] {
-        background: none !important;
+    
+    button.login {
+        border-color: var(--text);
     }
-
-    a:hover {
-        background: none;
+    
+    .data_table th {
+        border-color: var(--secondary-color);
     }
-
-    .home_cats ul li a:hover {
+    
+    .home_cats ul li a:hover, a:hover, a[target], .login  {
         background-color: none !important;
         background: none;
     }
-
-    .independent_course_item {
-        color: #1A919D;
+    
+    select, textarea, input, select:hover, textarea:hover, input:hover, select:active, textarea:active, input:active, select:focus, textarea:focus, input:focus {
+        all: revert!important;
+        width: 90%!important;
     }
-
-    .course_list_category {
-        background-color: #2E3B55;
-    }
-
-    td,
-    div {
-        color: #1084a7 !important;
+    
+    input[type="image"] {
+        width: unset!important;
     }
 }
