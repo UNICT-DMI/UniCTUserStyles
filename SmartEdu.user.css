@@ -18,7 +18,7 @@
 	
 	/* Backgrounds */
 	
-	body, #ctl01_MasterMenu_main-breadcrumb, td, #mainTab, div, .select2-container--default .select2-selection--single .select2-selection__rendered, .content-wrapper, .features-table > table.gradienttable > tbody > tr, td > input.inputBox, .select2-drop, #menuOnLeft > a, section.card, div.os-content > #sidebar li, div.card.card-cascade.narrower {
+	body, #ctl01_MasterMenu_main-breadcrumb, td, #mainTab, div, .select2-container--default .select2-selection--single .select2-selection__rendered, .content-wrapper, .features-table > table.gradienttable > tbody > tr, td > input.inputBox, .select2-drop, #menuOnLeft > a, section.card, div.os-content > #sidebar li, div.card.card-cascade.narrower, div.select2-container > a.select2-choice > span.select2-arrow {
 		background-color: var(--primary-color);
 		background: var(--primary-color);
 	}
@@ -36,11 +36,11 @@
 		background: var(--third-color)!important;
 	}
 	
-	td img, table.menustudenti > tr > td > img, tbody td > div:nth-child(odd), #toolbar > div.navbar.navbar-light div, nav.navbar-light div, div.navbar-text > ul.navbar-nav > li.nav-item {
+	td img, table.menustudenti > tr > td > img, tbody td > div:nth-child(odd), #toolbar > div.navbar.navbar-light div, nav.navbar-light div, div.navbar-text > ul.navbar-nav > li.nav-item, table.editingTable > tbody > tr > td > table > tbody > tr > td {
 		background: none!important
 	}
 	
-	input[type="submit"], hr, .ui-tabs-anchor, input[type="search"], .select2-container--default .select2-selection--single, .select2-search input, .select2-container .select2-choice, td > input.textBox, tr:nth-child(even) > td, tbody > tr:nth-child(even) > th, table.gradienttable > tbody > tr > th.newrow, table.gradienttable > tbody > tr:last-child > th {
+	input[type="submit"], hr, .ui-tabs-anchor, input[type="search"], .select2-container--default .select2-selection--single, .select2-search input, .select2-container .select2-choice, td > input.textBox, tr:nth-child(even) > td, tbody > tr:nth-child(even) > th, table.gradienttable > tbody > tr > th.newrow, table.gradienttable > tbody > tr:last-child > th, #ToolBarDiv, #ctl01_contents_Composer_IndividualeComposerUP div, #ctl01_contents_Errors_RADExplainPanel, #ctl01_contents_Errors_BaseExplainPanel, #ctl01_contents_ValidatorPanel > table > tbody > tr > td {
 		background: var(--primary-color)!important;
 		border-color: var(--secondary-text)!important;
 	}
@@ -126,7 +126,7 @@
 		color: white!important;
 	}
 	
-	#templateMenuUserAccount, div.card.card-cascade.narrower div.col-5, #printReserv > i, #slotListTable_info, tr.thead-light > th, td.text-center.bg-info {
+	#templateMenuUserAccount, div.card.card-cascade.narrower div.col-5, #printReserv > i, #slotListTable_info, tr.thead-light > th, td.text-center.bg-info, table.gradienttable > tbody > tr span, #ctl01_contents_Errors_ValidationUP li, #ctl01_contents_Composer_IndividualeComposerUP li, #ctl01_contents_Composer_SearchInsegnamento {
 		color: var(--secondary-text)!important;
 	}
 	
