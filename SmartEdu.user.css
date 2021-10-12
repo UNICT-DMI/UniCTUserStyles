@@ -138,7 +138,7 @@
 		color: var(--secondary-text)!important;
 	}
 	
-	#cookie-bar > p > a, thead.bg-warning > tr > th {
+	#cookie-bar > p > a, thead.bg-warning > tr > th, h2.mb-0 {
 		color: #A7A7A7!important;
 	}
 	
