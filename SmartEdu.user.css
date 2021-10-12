@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           SmartEdu
 @namespace      github.com/domenicoblanco/UniCTUserStyles
-@version        1.0.6
+@version        1.0.7
 @description    Userstyle for SmartEdu
 @author         Domenico Blanco
 ==/UserStyle== */
@@ -34,6 +34,14 @@
 	
 	td.text-center.bg-info {
 		background: var(--third-color)!important;
+	}
+	
+	.light-blue.darken-4 {
+		background-color: #673AB7!important;
+	}
+	
+	.bg-warning {
+		background-color: #01579b !important;
 	}
 	
 	td img, table.menustudenti > tr > td > img, tbody td > div:nth-child(odd), #toolbar > div.navbar.navbar-light div, nav.navbar-light div, div.navbar-text > ul.navbar-nav > li.nav-item, table.editingTable > tbody > tr > td > table > tbody > tr > td {
@@ -122,7 +130,7 @@
 		color: var(--text)!important;
 	}
 		
-	#titleInfoPage, #ctl01_contents_PanelSpidLogon > a > span.italia-it-button-text, div.light-blue.card-header h2.mb-0, a[data-dt-idx="1"].page-link {
+	#titleInfoPage, #ctl01_contents_PanelSpidLogon > a > span.italia-it-button-text, a[data-dt-idx="1"].page-link {
 		color: white!important;
 	}
 	
@@ -130,8 +138,8 @@
 		color: var(--secondary-text)!important;
 	}
 	
-	#cookie-bar > p > a {
-		color: gray!important;
+	#cookie-bar > p > a, thead.bg-warning > tr > th {
+		color: #A7A7A7!important;
 	}
 	
 	/* Padding */
@@ -144,5 +152,9 @@
 	
 	#ctl01_ImageEng, #navDeleteToIndex > ul > li > img {
 		filter: grayscale() invert();
+	}
+	
+	#qrCode {
+		filter: brightness(0.5);
 	}
 }
