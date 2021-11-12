@@ -16,7 +16,7 @@
         --secondary-text: #1084a7;
     }
     
-    #content, #menu, body, #global_course_name, #header3, .headerinner, #current, .headerinner, #header2, #header2redborder, .actions, td, #announcements_list, .quiz_content_actions, .headerinner, .section_white, .sectiontitle, .section, .course_list_category {
+    #content, #menu, body, #global_course_name, #header3, .headerinner, #current, .headerinner, #header2, #header2redborder, .actions, td, #announcements_list, .quiz_content_actions, .headerinner, .section_white, .sectiontitle, .section, .course_list_category, button.save {
         background-color: var(--primary-color)!important;
         border: none;
         background: var(--primary-color);
@@ -31,12 +31,16 @@
         padding-bottom: 10px;
     }
     
-    a, span, td, div, h3, button.login, .independent_course_item {
+    a, span, td, div, h3, button.login, .independent_course_item, button.save, button.save:hover {
         color: var(--text) !important;
     }
     
-    button.login {
+    button.login, button.save:hover {
         border-color: var(--text);
+    }
+    
+    button.save:hover {
+    	border: 10px!important;
     }
     
     .data_table th {
