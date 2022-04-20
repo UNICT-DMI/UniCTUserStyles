@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           SmartEdu
 @namespace      github.com/domenicoblanco/UniCTUserStyles
-@version        1.0.7
+@version        1.0.8
 @description    Userstyle for SmartEdu
 @author         Domenico Blanco
 ==/UserStyle== */
@@ -16,145 +16,77 @@
 		--secondary-text: #1084a7;
 	}
 	
-	/* Backgrounds */
+	/* background */
 	
-	body, #ctl01_MasterMenu_main-breadcrumb, td, #mainTab, div, .select2-container--default .select2-selection--single .select2-selection__rendered, .content-wrapper, .features-table > table.gradienttable > tbody > tr, td > input.inputBox, .select2-drop, #menuOnLeft > a, section.card, div.os-content > #sidebar li, div.card.card-cascade.narrower, div.select2-container > a.select2-choice > span.select2-arrow, div.ToolBar {
-		background-color: var(--primary-color);
+	#mainDiv, .nav-tabs .nav-link.active, .input-group-text, .brand_logo_container, .card, .navbar-white, .breadcrumb, .container-fluid2, .content-wrapper, .dropdown-menu li:hover, .ui-widget-content {
 		background: var(--primary-color);
 	}
 	
-	div > .campi, .footer, #ctl01_contents_PanelOpzioniLogon, #ctl01_contents_PanelSpidLogon, #ctl01_contents_PanelLogonDataInput, .sectionMenu li a:hover, .select2-container .select2-choice .select2-arrow  #ctl01_MasterMenu_MasterMenu_Main-Menu, #ctl01_MasterMenu_MasterMenu_Main-Menu a, td div, .dropdown-header, ul, #ctl01_contents_pagoPAMainPanel div, td, #ctl01_contents_CarriereList_ctl01, .navbar-light, main nav ol, .scroll-down, tbody > tr:nth-child(odd) > th, #altreAzioni, #lastVisited li, span.select2-dropdown.select2-dropdown--below {
+	.user_card, .table-striped tbody tr:nth-of-type(odd), .ui-widget-header, .ui-button, .ui-button:hover, .select2-container--default .select2-selection--single {
+		background: var(--secondary-color);
+	}
+	
+	.bg-gradient-light {
 		background: var(--secondary-color)!important;
 	}
 	
-	#LogonButton:hover, #LogonButton:focus, .baseCssEditingTable, ul.dropdown-menu.show > li:hover {
+	footer.page-footer .footer-copyright {
 		background-color: var(--third-color);
-		background: var(--third-color);
 	}
 	
-	td.text-center.bg-info {
-		background: var(--third-color)!important;
+	.bg-light, .bg-gradient-light, #careerInfo th, .btn-light.dropdown-toggle, .btn-light.dropdown-toggle:hover, .btn-light:not([disabled]):not(.disabled):active, .dropdown-menu {
+		background-color: var(--secondary-color)!important;
 	}
 	
-	.light-blue.darken-4 {
-		background-color: #673AB7!important;
+	
+	html, #bodyTemplateColor, .hiddenTableCareer th {
+		background-color: var(--primary-color)!important;
 	}
 	
-	.bg-warning {
-		background-color: #01579b !important;
+	
+	/* Borders */
+	
+	.nav-tabs, .ui-widget-content, .ui-widget.ui-widget-content, .ui-button:hover {
+		border-color: var(--secondary-text);
 	}
 	
-	td img, table.menustudenti > tr > td > img, tbody td > div:nth-child(odd), #toolbar > div.navbar.navbar-light div, nav.navbar-light div, div.navbar-text > ul.navbar-nav > li.nav-item, table.editingTable > tbody > tr > td > table > tbody > tr > td {
-		background: none!important
-	}
-	
-	input[type="submit"], hr, .ui-tabs-anchor, input[type="search"], .select2-container--default .select2-selection--single, .select2-search input, .select2-container .select2-choice, td > input.textBox, tr:nth-child(even) > td, tbody > tr:nth-child(even) > th, table.gradienttable > tbody > tr > th.newrow, table.gradienttable > tbody > tr:last-child > th, #ToolBarDiv, #ctl01_contents_Composer_IndividualeComposerUP div, #ctl01_contents_Errors_RADExplainPanel, #ctl01_contents_Errors_BaseExplainPanel, #ctl01_contents_ValidatorPanel > table > tbody > tr > td {
-		background: var(--primary-color)!important;
+	.md-form > input {
 		border-color: var(--secondary-text)!important;
 	}
 	
-	/* Border */
-	
-	.azzurro1 > ul > li, .verde1 > ul > li, .arancio1 > ul > li, #ctl01_contents_CarriereList_ctl01, .baseCssEditingTable tr:first-child .section, .gradienttable th, #ctl01_contents_PianiStudioH1_LblID6b01187a_086f_4954_909c_74baf83252fd, .select2-container .select2-choice .select2-arrow, .baseCssEditingTable td.section, .main-header, #menuOnLeft > a, .user-panel, div.ToolBar {
-		border-color: var(--text)!important;
+	.nav-link.active, .nav-link:hover, .border, .main-header {
+		border-color: var(--primary-text)!important;
 	}
 	
-	td > input.inputBox, #lastVisited li, span.select2-dropdown.select2-dropdown--below {
-		border-color: var(--secondary-text)!important;
+	.table td, .table th, .table thead th, .ui-widget-header, .ui-button, .select2-hidden-accesible {
+		border: none;
 	}
 	
-	td h3 span, ul, .menustudenti, #mainTab, #ctl01_contents_pagoPAMainPanel div, td, table th {
-		border: none!important;
-	}
 	
-	td {
-		border-bottom: none!important;
-		border-top-right-radius:0!important;
-		border-top-left-radius: 0!important;
-	}
+	/* Font */
 	
-	.baseCssEditingTable td, .select2-choice {
-		-webkit-box-shadow: 0 1px 0 teal!important;
-	}
-	
-	.dropdown-header {
-		border-top-color: var(--secondary-text)!important;
-		border-bottom-color: var(--secondary-text)!important;
-	}
-	
-	nav > ul > li > a.has-submenu > span.sub-arrow {
-		border-color: var(--secondary-text) transparent transparent!important;
-	}
-	
-	li > a > span.sub-arrow {
-		border-color: transparent transparent transparent var(--secondary-text)!important;
-	}
-	
-	.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
-		border: 2px solid #00796B!important;
-	}
-	
-	.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
-		border: 2px solid grey!important;
-	}
-	
-	td > input[type="submit"] {
-		border-width: 1px;
-		border-radius: 3px;
-	}
-	
-	/* Login button */
-	
-	#LogonButton {
-	  border-width: 0;
-	  cursor: pointer;
-	  border-radius: 2px;
-	  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-	  
-	  color: var(--text);
-	  width: 80px;
-	  height: 25px;
-	  display: block;
-	  margin: 5px auto auto;
-	  
-	  transition: background-color .3s;
-	}
-	
-	/* Font color */
-	
-	.big, a:link, #ctl01_MasterMenu_main-breadcrumb, ul a, h1, p, h2, h4, span, th, .select2-container--default .select2-selection--single .select2-selection__rendered, #ctl01_contents_CarriereList_CarrieraPanel_376384ff-e7f7-4820-8c90-5b1d908db0bb > div, div > .big, .footer, .footer > a:link, input.TextField, .select2-result-label, .select2-input, .gradienttable th, td > input.textBox, table.gradienttable td > select, div.navbar-nav i, label.container {
-		color: var(--text);
-	}
-	
-	#ctl01_MasterMenu_main-breadcrumb a:link, .dropdown-header, td img, h3 span, ul li a, a:visited, a, td, h3, input[type="search"], td > input.inputBox, td > input[type="submit"], #altreAzioni, ul.dropdown-menu.show > li, i.text-dark, div.carriera {
+	span.font-weight-bold, .font-weight-normal, tr, td, h3, .btn-light.dropdown-toggle, .btn-light.dropdown-toggle:hover, .dropdown-menu li, h1, div, .ui-button, .nav-link.active, .input-group-text, .text-muted, .breadcrumb a, .md-form > input, .select2-selection__rendered, th {
 		color: var(--text)!important;
 	}
-		
-	#titleInfoPage, #ctl01_contents_PanelSpidLogon > a > span.italia-it-button-text, a[data-dt-idx="1"].page-link {
-		color: white!important;
-	}
 	
-	#templateMenuUserAccount, div.card.card-cascade.narrower div.col-5, #printReserv > i, #slotListTable_info, tr.thead-light > th, td.text-center.bg-info, table.gradienttable > tbody > tr span, #ctl01_contents_Errors_ValidationUP li, #ctl01_contents_Composer_IndividualeComposerUP li, #ctl01_contents_Composer_SearchInsegnamento {
+	.md-form > label, #openMenuLeftButton {
 		color: var(--secondary-text)!important;
 	}
 	
-	#cookie-bar > p > a, thead.bg-warning > tr > th, h2.mb-0 {
-		color: #A7A7A7!important;
+	
+	/* Custom components */
+	.form-control {
+		background: revert;
+		color: revert;
+		border: revert;
+		transition: revert;
+		border-radius: revert;
 	}
 	
-	/* Padding */
 	
-	a.brand-link.text-white {
-		padding-bottom: 16px;
-	}
+	/* Filters & Transformations */
 	
-	/* Filters */
-	
-	#ctl01_ImageEng, #navDeleteToIndex > ul > li > img {
-		filter: grayscale() invert();
-	}
-	
-	#qrCode {
-		filter: brightness(0.5);
+	#spid-agid {
+		filter: invert();
 	}
 }
