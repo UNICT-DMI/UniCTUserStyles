@@ -83,12 +83,21 @@
 		border-radius: revert;
 	}
 	
+	#loginPanel div.d-flex.justify-content-center.links {
+		align-items: center;
+	}
+	
+	#loginPanel div.d-flex.justify-content-center.links > div {
+		margin: auto;
+	}
+	
 	.googleStore {
 		content: url("https://raw.githubusercontent.com/domenicoblanco/UniCTUserStyles/master/badges/googlePlay.webp");
 	}
 	
 	.appleStore {
 		content: url("https://raw.githubusercontent.com/domenicoblanco/UniCTUserStyles/master/badges/appStore.webp");
+		margin-top: 0px;
 	}
 	
 	
