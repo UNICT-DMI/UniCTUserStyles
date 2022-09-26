@@ -18,7 +18,7 @@
 	
 	/* background */
 	
-	#mainDiv, .nav-tabs .nav-link.active, .input-group-text, .brand_logo_container, .card, .navbar-white, .breadcrumb, .container-fluid2, .content-wrapper, .dropdown-menu li:hover, .ui-widget-content {
+	#mainDiv, .nav-tabs .nav-link.active, .input-group-text, .brand_logo_container, .card, .navbar-white, .breadcrumb, .container-fluid2, .content-wrapper, .dropdown-menu li:hover, .ui-widget-content, #userName, #password {
 		background: var(--primary-color);
 	}
 	
@@ -46,7 +46,7 @@
 	
 	/* Borders */
 	
-	.nav-tabs, .ui-widget-content, .ui-widget.ui-widget-content, .ui-button:hover {
+	.nav-tabs, .ui-widget-content, .ui-widget.ui-widget-content, .ui-button:hover, #userName, #password {
 		border-color: var(--secondary-text);
 	}
 	
@@ -81,6 +81,14 @@
 		border: revert;
 		transition: revert;
 		border-radius: revert;
+	}
+	
+	.googleStore {
+		content: url("https://raw.githubusercontent.com/domenicoblanco/UniCTUserStyles/master/badges/googlePlay.webp");
+	}
+	
+	.appleStore {
+		content: url("https://raw.githubusercontent.com/domenicoblanco/UniCTUserStyles/master/badges/appStore.webp");
 	}
 	
 	
