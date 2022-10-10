@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           SmartEdu
-@namespace      github.com/domenicoblanco/UniCTUserStyles
-@version        1.0.8
+@namespace      github.com/UNICT-DMI/UniCTUserStyles
+@version        1.0.9
 @description    Userstyle for SmartEdu
 @author         Domenico Blanco
 ==/UserStyle== */
@@ -92,11 +92,11 @@
 	}
 	
 	.googleStore {
-		content: url("https://raw.githubusercontent.com/domenicoblanco/UniCTUserStyles/master/badges/googlePlay.webp");
+		content: url("https://raw.githubusercontent.com/UNICT-DMI/UniCTUserStyles/master/badges/googlePlay.webp");
 	}
 	
 	.appleStore {
-		content: url("https://raw.githubusercontent.com/domenicoblanco/UniCTUserStyles/master/badges/appStore.webp");
+		content: url("https://raw.githubusercontent.com/UNICT-DMI/UniCTUserStyles/master/badges/appStore.webp");
 		margin-top: 0px;
 	}
 	
