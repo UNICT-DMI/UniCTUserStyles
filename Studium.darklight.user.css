@@ -1,0 +1,94 @@
+/* ==UserStyle==
+@name           Light dark theme for Studium
+@namespace      github.com/UNICT-DMI/UniCTUserStyles
+@version        1.0.0
+@description    Userstyle for Studium
+@author        makapx (https://github.com/makapx)
+==/UserStyle== */
+
+@-moz-document domain("studium.unict.it"),
+domain("studiumarchive.unict.it") {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=default");
+
+  :root {
+    color-scheme: dark;
+    --theme: #192021;
+    --primary: #1b2f73;
+    --accent: #153a7d;
+    --white: #fff;
+  }
+
+  body,
+  body.tool_background {
+    font-family: "Poppins", serif;
+    background: var(--theme);
+  }
+
+  /* Typography */
+  h3.tablet_title {
+    color: var(--accent);
+  }
+
+  #content {
+    font-size: 1.1rem;
+    border-radius: 4px;
+  }
+
+  /* Main header */
+  #header2 {
+    background: var(--primary);
+  }
+
+  #header2redborder {
+    background: var(--accent);
+  }
+
+  #header2 #dokeostabs li,
+  #header2 #logout a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+
+  #header2 #dokeostabs li#current {
+    background-color: var(--accent);
+  }
+
+  #header2 #dokeostabs li#current span {
+    color: var(--white);
+    font-weight: bold;
+  }
+
+  #header2 #logout a {
+    background-color: var(--accent);
+    margin-top: 0;
+    padding-bottom: 8px;
+    border-radius: 0;
+  }
+
+  /* Course page header */
+  #header3,
+  #header3 div.headerinner {
+    background: var(--theme);
+  }
+
+  #header3 #global_course_name {
+    padding-top: 1.2rem;
+    color: var(--white);
+    font-weight: 800;
+  }
+
+  #main .actions.rel {
+    border-radius: 4px;
+  }
+
+  /* Tabs */
+  .homepage_button.homepage_catalogue {
+    display: none;
+  }
+
+  #menu div:not(.tablet_title) a {
+    font-weight: 600;
+  }
+}
