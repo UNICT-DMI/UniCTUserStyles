@@ -13,6 +13,7 @@ Just download one of these extensions according to your browser
  
 And now click in the UserStyle you'd like to install
 - [Studium](https://raw.githubusercontent.com/UNICT-DMI/UniCTUserStyles/master/Studium.user.css)
+- [Studium darklight](https://raw.githubusercontent.com/UNICT-DMI/UniCTUserStyles/master/Studium.darklight.user.css) by [makapx](https://github.com/makapx) 
 - [SmartEdu](https://raw.githubusercontent.com/UNICT-DMI/UniCTUserStyles/master/SmartEdu.user.css)
 
 Automatically the extension you installed before should recognize the UserStyle and automatically prompt to import it.
